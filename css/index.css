@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
+}
+
+nav {
+    background-color: blue;
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    font-family: "Fira Sans","Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: gold;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    display: inline-block;
+    background-color: cornflowerblue;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px black;
+    margin-right: 0;
+    transition: transform 120ms linear;
+}
+
+#button:hover {
+    background-color: red;
+    transform: scale(1.1);
+}
