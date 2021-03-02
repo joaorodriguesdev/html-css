@@ -11,6 +11,6 @@
 }
 
 .button:hover {
-    background-color: #ff0000;
+    background-color: #0000ff;
     transform: scale(1.1);
 }
